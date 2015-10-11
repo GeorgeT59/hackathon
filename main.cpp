@@ -65,15 +65,15 @@ int main()
     cout << "Enter the fraction [in decimal form] of those stars with planetary systems.[Usually around 0.4]. (ne) " << endl;
     cin >> ne;
 
-    while (fp < 0)
+    while (ne < 0)
     {
-        if (fp < 0)
+        if (ne < 0)
         {
         cout << "Please enter positive number. " << endl;
-        cin >> fp;
+        cin >> ne;
         }
         else
-        cin >> fp;
+        cin >> ne;
     }
 
     cout << endl;
